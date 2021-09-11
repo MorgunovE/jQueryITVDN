@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <style>
+        body{
+            padding: 30px;
+            font-size: 18px;
+            position: relative;
+        }
+        div{
+            padding: 10px;
+            background-color: black;
+            color: #fff;
+            margin: 30px 0;
+            /* position: absolute; */
+        }
+        button{
+            color:tomato;
+            border: 2px solid tomato;
+            background: whitesmoke;
+            padding: 5px 15px;
+            border-radius: 4px;
+        }
+        .hide{
+            display: none;
+            background: rgb(230, 13, 31);
+        }
+        .slide{
+            height: 100px;
+            display: none;
+        }
+    </style>
+    <div class="hide">
+        Hello
+    </div>
+    <button class="show">Show hide</button>
+    <button class="hide-block">Hide block</button>
+    
+    <div class="slide">
+        Slide down hide
+    </div>
+    <p>
+        <button class="slideDown">SLide down</button>
+        <button class="slideUp">Slide up</button>        
+    </p>
+    <div class="toggle">
+        Toggle block
+    </div>
+    <button class="toggle-button">
+        Toggle animation
+    </button>
+
+    <div class="fade-block">
+        Fade block
+    </div>
+    <p>
+        <button  class="fadeOut">
+            Fade Out 
+        </button>
+        <button class="fadeIn">
+            Fade In 
+        </button>
+        <button class="fadeTo">
+            Fade To 0.4
+        </button>
+    </p>
+</body>
+</html>
