@@ -20,7 +20,7 @@ $(document).ready(function(){
     // $(".text").wrapAll("<div class='block'></div>");
     // $(".children").children().text("Selected");
     // $("span").closest("p").text("Selected");
-    // $("ul").find("span").text("Finded!");
+    // $("ul").find("span").text("Found!");
     // $(".active").next().text("Next");
     // $(".active").nextUntil(".stop").text("Next");
     // $(".active").nextAll().text("Next");
